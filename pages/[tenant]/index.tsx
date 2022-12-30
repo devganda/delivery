@@ -1,5 +1,6 @@
 import styles from "../../styles/Home.module.css";
 import {SearchInput} from "../../components/SearchInput/index";
+import {Banner} from "../../components/Banner/index";
 
 const Home = ()=>{
 
@@ -34,6 +35,9 @@ const Home = ()=>{
                     />
                 </div>
             </header>
+
+            <Banner/>
+            
         </div>
     );
 }
